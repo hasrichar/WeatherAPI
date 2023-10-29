@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://kit.fontawesome.com/669faf6f91.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/style/style.css">
+</head>
+
+<body>
+    <div id="preloader"></div>
+
+    <div id="cari">
+        <div class="form" id="searchForm">
+            <input type="text" placeholder="Search..." class="keyword" onclick="hideTitle()">
+            <i class="btn-search fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <div id="title">
+        <img class="kliksin" src="/static/image/clickmobile.png" alt="">
+        <img class="wlcome" src="/static/image/welcome.png">
+    </div>
+    <div id="app">
+        <div id="container" class="output-container">
+        </div>
+    </div>
+    <section>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </section>
+    <script src="/static/script/script.js"></script>
+</body>
+
+</html>
